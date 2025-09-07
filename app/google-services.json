@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328181377952",
+    "project_id": "earnez-354af",
+    "storage_bucket": "earnez-354af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328181377952:android:d0d086ad7a737acffa12c5",
+        "android_client_info": {
+          "package_name": "com.dksport.earnez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwEeJ2ZLL0ry1-MQCPm6NVLtUYq7TOwug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
