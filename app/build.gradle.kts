@@ -13,8 +13,8 @@ android {
         applicationId = "com.dksport.earnez"
         minSdk = 24
         targetSdk = 35
-        versionCode = 7
-        versionName = "7.0"
+        versionCode = 8
+        versionName = "8.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -71,12 +71,15 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("com.google.android.gms:play-services-ads:23.1.0")
     implementation("com.google.firebase:firebase-ads:23.1.0")
-
+    implementation("androidx.compose.ui:ui:1.5.0")
+    implementation("androidx.compose.material:material:1.5.0")
     // Jetpack Compose
     implementation("androidx.activity:activity-compose:1.8.2")
     implementation("androidx.compose.ui:ui:1.5.4")
     implementation("androidx.compose.material3:material3:1.2.1")
     implementation("androidx.compose.ui:ui-tooling-preview:1.5.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
 
     // Firebase BoM: Manages versions automatically
